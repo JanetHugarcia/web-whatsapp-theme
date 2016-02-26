@@ -10,7 +10,12 @@ body {
 	margin:0;
 	box-sizing:border-box;
 }
-
+.container{
+	margin-top: 19px;
+	border-radius: 3px;
+	border:1px solid #dbdbdb;
+	
+}
 .app{
 	background: url('../image/chat-panel-bg.png');
 	background-color: #EBE6E0;
@@ -40,5 +45,25 @@ ul{
 	padding: 8px;
 	cursor:pointer;
 	margin-left: 10px;
+	color:#777777;
 }
 /*part2*/
+.busqueda{
+	background-color: #fbfbfb;
+	position:relative;
+}
+.busqueda .icon-b{
+	padding:8px;
+	position: absolute;
+	color:rgba(219, 219, 219,0.9);
+	font-size: 20px;
+	top:5px;
+	left: 15px;
+}
+.busqueda input{
+	width: 250px;
+	margin:10px;
+	border:1px solid rgba(219, 219, 219,0.3);
+	height: 30px;
+	padding: 0px 35px;
+}
