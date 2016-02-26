@@ -1,0 +1,15 @@
+body {
+	background: url(../image/verde.png)repeat-x 50%;
+    background-color: #DFDFDF;
+    margin: 0px;
+    height: 100%;
+    position: relative;
+}
+
+
+.bg-bottom{
+	background:linear-gradient(to bottom, tomato, steelblue);
+	margin-top:30px;
+	
+	width: 100%;
+}
