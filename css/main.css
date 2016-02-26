@@ -5,11 +5,40 @@ body {
     height: 100%;
     position: relative;
 }
-
-
-.bg-bottom{
-	background:linear-gradient(to bottom, tomato, steelblue);
-	margin-top:30px;
-	
-	width: 100%;
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
 }
+
+.app{
+	background: url('../image/chat-panel-bg.png');
+	background-color: #EBE6E0;
+}
+
+aside,section{
+	background-color: #EEEEEE;
+	outline: 1px solid #DBDBDB;
+	padding: 10px;
+}
+ul{
+	margin: 0px;
+	padding:0px 0px 0px 0px;
+}
+.headered ul li {
+	display: inline-block;
+}
+.headered img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 15px;
+
+}
+.icono{
+	font-size: 24px;
+	padding: 8px;
+	cursor:pointer;
+	margin-left: 10px;
+}
+/*part2*/
