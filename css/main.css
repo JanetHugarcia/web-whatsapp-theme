@@ -13,9 +13,6 @@ body {
 }
 
 
-
-
-
 .mg-5{
 	margin-top: 5px;
 }
@@ -41,12 +38,12 @@ body {
 	position: absolute;
     right: 0;
     left: 0;
-    top: 2.5%;
+    top: 0;
 
 	background: url('../image/chat-panel-bg.png');
 	background-color: #EBE6E0;
 	border-radius: 3px;
-	margin-top: 19px;
+	margin-top: 14px;
 	box-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 
